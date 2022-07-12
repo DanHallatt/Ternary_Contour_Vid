@@ -11,6 +11,7 @@ Makes a video of a stitched series of ternary contour plots while a window slide
  - the starting datapoint which to generate the first video frame from.
  - the number of steps of the window (a subset of the entire dataset can be plotted, given this parameter, the width of the window and the starting datapoint specified by the user).
  - the frames per second.
+ - to plot the position of the window, either in units of datapoint index or in associated distance of each datapoint from a datum (in the case that the series of data is from a line-scan for example).
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -26,10 +27,17 @@ Makes a video of a stitched series of ternary contour plots while a window slide
 
 This figure was generated from the following user-specified options:
  - dataset = [[A1, B1, C1], [A2, B2, C2], ...[An, Bn, Cn]] where A = Si+Al, B = Fe, and C = Mg at.%
+ - WindDispPositionData =[Distance1, Distance2, ... Distance3] in nm.
  - ContLines = 'n'
- - NumLevels = 8
+ - NumLevels = 7
  - Colour = 'Blues'
  - type = 'silicate'
+ - WindDispType = 'distance'
+ - WindowWidth = 10
+ - NumberOfSteps = 300
+ - StartingIndex_FirstWindow = 0
+ - fps = 10
+
  
 <p align="right">(<a href="#top">back to top</a>)</p>
 
