@@ -1,5 +1,5 @@
 # Ternary_Contour_Vid
-Makes a video of a stitched series of ternary contour plots while a window slides through a series of 3-dimensional data. Contours are based on 'spatial'-density of datapoints in the domain of the ternary plot.
+Makes a video (.gif) of a stitched series of ternary contour plots while a window slides through a series of 3-dimensional data. Contours are based on 'spatial'-density of datapoints in the domain of the ternary plot.
 
 <!-- Options -->
 ## Options
@@ -61,7 +61,7 @@ If you have a suggestion that would make this better, please fork the repo and c
 
 Dan Hallatt - daniel.hallatt@univ-lille.fr
 
-Project Link: [https://github.com/your_username/repo_name](https://github.com/your_username/repo_name)
+Project Link: [https://github.com/DanHallatt/Ternary_Contour_Vid](https://github.com/Ternary_Contour_Vid)
 
 Associated Institute Link: https://umet.univ-lille.fr/MTP/index.php?lang=fr
 
